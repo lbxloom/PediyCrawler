@@ -1,0 +1,26 @@
+﻿Build started 2018/7/22 11:23:17.
+     1>Project "C:\myproj\Ped1yCrawl3r\Ped1yCrawl3r\htmlcxx\htmlcxx.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _USE_DEBUG_HEAP /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt html\Extensions.cc html\Node.cc html\ParserDom.cc html\ParserSax.cc html\Uri.cc html\utils.cc
+         utils.cc
+         Uri.cc
+     1>c:\myproj\ped1ycrawl3r\ped1ycrawl3r\htmlcxx\html\uri.cc(564): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+         ParserSax.cc
+         ParserDom.cc
+         Node.cc
+         Extensions.cc
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"Debug\htmlcxx.lib" /NOLOGO Debug\Extensions.obj
+         Debug\Node.obj
+         Debug\ParserDom.obj
+         Debug\ParserSax.obj
+         Debug\Uri.obj
+         Debug\utils.obj
+         htmlcxx.vcxproj -> C:\myproj\Ped1yCrawl3r\Ped1yCrawl3r\htmlcxx\Debug\htmlcxx.lib
+     1>Done Building Project "C:\myproj\Ped1yCrawl3r\Ped1yCrawl3r\htmlcxx\htmlcxx.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.17
